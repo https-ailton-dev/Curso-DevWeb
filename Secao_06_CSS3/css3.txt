@@ -1,4 +1,5 @@
-CSS3, ou Cascading Style Sheets 3, é a versão mais recente da linguagem de estilo utilizada para estilizar páginas HTML e XML. Ele é usado para controlar a aparência e o layout de elementos em uma página da web. Aqui está uma introdução geral aos conceitos e recursos do CSS3:
+CSS3, ou Cascading Style Sheets 3, é a versão mais recente da linguagem de estilo utilizada para estilizar páginas HTML e XML. 
+Ele é usado para controlar a aparência e o layout de elementos em uma página da web. Aqui está uma introdução geral aos conceitos e recursos do CSS3:
 
 ### Seletores:
 - Os seletores CSS3 permitem selecionar elementos HTML para aplicar estilos.
@@ -32,7 +33,10 @@ CSS3, ou Cascading Style Sheets 3, é a versão mais recente da linguagem de est
 - CSS3 oferece transformações 2D e 3D para alterar a posição, a escala, a rotação e a inclinação dos elementos.
 - Também suporta filtros para aplicar efeitos visuais como desfoque, saturação, brilho e muito mais.
 
-Esses são apenas alguns dos recursos e conceitos fundamentais do CSS3. Ele continua a evoluir com o tempo, oferecendo novas funcionalidades e capacidades para estilizar páginas da web de forma mais poderosa e eficaz.CSS3, ou Cascading Style Sheets 3, é a versão mais recente da linguagem de estilo utilizada para estilizar páginas HTML e XML. Ele é usado para controlar a aparência e o layout de elementos em uma página da web. Aqui está uma introdução geral aos conceitos e recursos do CSS3:
+Esses são apenas alguns dos recursos e conceitos fundamentais do CSS3. Ele continua a evoluir com o tempo, oferecendo novas funcionalidades e 
+capacidades para estilizar páginas da web de forma mais poderosa e eficaz.CSS3, ou Cascading Style Sheets 3, é a versão mais recente da 
+linguagem de estilo utilizada para estilizar páginas HTML e XML. Ele é usado para controlar a aparência e o layout de elementos em uma página da web. 
+Aqui está uma introdução geral aos conceitos e recursos do CSS3:
 
 ### Seletores:
 - Os seletores CSS3 permitem selecionar elementos HTML para aplicar estilos.
@@ -66,4 +70,5 @@ Esses são apenas alguns dos recursos e conceitos fundamentais do CSS3. Ele cont
 - CSS3 oferece transformações 2D e 3D para alterar a posição, a escala, a rotação e a inclinação dos elementos.
 - Também suporta filtros para aplicar efeitos visuais como desfoque, saturação, brilho e muito mais.
 
-Esses são apenas alguns dos recursos e conceitos fundamentais do CSS3. Ele continua a evoluir com o tempo, oferecendo novas funcionalidades e capacidades para estilizar páginas da web de forma mais poderosa e eficaz.
+Esses são apenas alguns dos recursos e conceitos fundamentais do CSS3. 
+Ele continua a evoluir com o tempo, oferecendo novas funcionalidades e capacidades para estilizar páginas da web de forma mais poderosa e eficaz.
