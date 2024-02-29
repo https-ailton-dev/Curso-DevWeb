@@ -35,7 +35,7 @@
     <p>Neste exemplo, temos uma tabela com duas linhas ('<'tr'>'). A primeira linha contém cabeçalhos de coluna ('<'th'>') e a segunda e terceira linhas contêm dados ('<'td'>').</p>
     <p>O atributo border="1" em '<'table'>'' é opcional e define a largura da borda da tabela. Se definido como 1, uma borda será exibida ao redor de cada célula e da tabela. Se não for definido, a tabela será exibida sem bordas.</p>
     <hr>
-    <table border="3">
+    <table border="2" width="50%">
         <tr><!--Linha 00 Cabeçalho-->
             <th>Teste 1</th>
             <th>Teste 2</th>
@@ -47,6 +47,39 @@
         <tr><!--Linha 02-->
             <td>Linha 2 - Dados 7, 8, 9</td>
             <td>Linha 2 - Dados 10, 11, 12</td>
+        </tr>
+        <tr><!--Linha 03-->
+            <td><img src="imagens/redbull.jpg" width="200" alt="Carro RedBull"></td>
+            <td><a href="">Teste links em Tabelas</a><br><br></td>
+        </tr>
+    </table>
+    <hr>
+    <table border="2" width="100%">
+        <tr><!--Linha 00 Cabeçalho-->
+            <th>Códigp</th>
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr>
+        <tr><!--Linha 01-->
+            <td>001</td>
+            <td>Notebook</td>
+            <td>R$ 2.500,99</td>
+        </tr>
+        <tr><!--Linha 02-->
+            <td>002</td>
+            <td>Tablet</td>
+            <td>R$ 999,99</td>
+        </tr>
+        <tr><!--Linha 03-->
+            <td rowspan="2">Desconto</td><!--colspan - mesclar linha-->
+            <td colspan="2">cupom1 -R$ 10</td><!--colspan - mesclar coluna-->
+        </tr>
+        <tr><!--Linha 04-->
+            <td colspan="2">cupom2 -R$ 12</td><!--colspan - mesclar coluna-->
+        </tr>
+        <tr><!--Linha 05-->
+            <td>Total:</td>
+            <td colspan="2">R$ 3.478,98</td><!--colspan - mesclar coluna-->
         </tr>
     </table>
 </body>
