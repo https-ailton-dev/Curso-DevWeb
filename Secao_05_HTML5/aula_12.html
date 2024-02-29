@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h2>Formulários</h2>
+    <p>Para criar formulários em HTML, você usa a tag '<'form'>'. Dentro desta tag, você pode adicionar vários elementos de entrada, como campos de texto, caixas de seleção, botões de opção, botões de envio etc. Aqui está um exemplo básico de um formulário de login:</p>
+
+    
+
+    <form action="/login" method="post">
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="submit" value="Login">
+    </form>
+    
+    <h2>Explicação dos elementos:</h2>
+        <ul>
+            <li>'<'form'>': Define o formulário. O atributo action especifica para onde os dados do formulário serão enviados e o atributo method especifica o método de envio (geralmente POST ou GET).</li>
+            <li>'<'label'>': Rótulo para o campo de entrada. O atributo for especifica qual campo de entrada o rótulo está associado.</li>
+            <li>'<'input'>': Elemento de entrada. O atributo type especifica o tipo de entrada (texto, senha, botão, etc). Os atributos id e name são identificadores do campo de entrada, e required torna o campo obrigatório.</li>
+            <li>'<'br'>': Quebra de linha para separar os elementos do formulário.</li>
+            <li>'<'input type="submit"''>': Botão de envio para enviar o formulário.</li>
+        </ul>
+        
+    <p>Neste exemplo, quando o usuário preencher o formulário e clicar no botão de envio, os dados do formulário serão enviados para a URL especificada no atributo action usando o método especificado no atributo method.</p>
+    <hr>
+    <h2>Variação do '<'input type='>'</h2>
+    <p>Em HTML, a tag '<'input'>' é uma das mais versáteis, permitindo vários tipos de entrada de dados. 
+        Aqui estão os principais tipos que você pode usar:</p>
+    <ol>
+        <li>text: Cria um campo de texto para entrada de texto.</li>
+        <li>password: Cria um campo de senha onde o texto digitado é ocultado.</li>
+        <li>checkbox: Cria uma caixa de seleção que permite aos usuários selecionar várias opções.</li>
+        <li>radio: Cria um botão de opção que permite aos usuários selecionar apenas uma opção de um grupo.</li>
+        <li>submit: Cria um botão de envio para enviar um formulário.</li>
+        <li>reset: Cria um botão de reset para redefinir os campos de um formulário para seus valores padrão.</li>
+        <li>button: Cria um botão clicável.</li>
+        <li>file: Cria um campo de seleção de arquivo que permite aos usuários enviar arquivos para o servidor.</li>
+        <li>hidden: Cria um campo de entrada oculto que os usuários não podem ver.</li>
+        <li>image: Cria um botão de imagem que envia as coordenadas do ponto onde o usuário clicou na imagem.</li>
+        <li>number: Cria um campo de entrada para números.</li>
+        <li>date: Cria um campo de entrada para datas.</li>
+        <li>email: Cria um campo de entrada para endereços de e-mail.</li>
+        <li>tel: Cria um campo de entrada para números de telefone.</li>
+        <li>url: Cria um campo de entrada para URLs.</li>
+    </ol>
+    <p>Aqui está um exemplo que demonstra todos os tipos de campos de entrada em um formulário HTML:</p>
+    <form action="/submit" method="post">
+        <label for="text_input">Campo de Texto:</label>
+        <input type="text" id="text_input" name="text_input"><br><br>
+    
+        <label for="password_input">Senha:</label>
+        <input type="password" id="password_input" name="password_input"><br><br>
+    
+        <label for="checkbox_input">Caixa de Seleção:</label>
+        <input type="checkbox" id="checkbox_input" name="checkbox_input"><br><br>
+    
+        <label for="radio_input1">Botão de Opção 1:</label>
+        <input type="radio" id="radio_input1" name="radio_input" value="opcao1"><br>
+    
+        <label for="radio_input2">Botão de Opção 2:</label>
+        <input type="radio" id="radio_input2" name="radio_input" value="opcao2"><br><br>
+    
+        <label for="submit_input">Botão de Envio:</label>
+        <input type="submit" id="submit_input" value="Enviar"><br><br>
+    
+        <label for="reset_input">Botão de Reset:</label>
+        <input type="reset" id="reset_input" value="Limpar"><br><br>
+    
+        <label for="button_input">Botão:</label>
+        <input type="button" id="button_input" value="Clique Aqui"><br><br>
+    
+        <label for="file_input">Seleção de Arquivo:</label>
+        <input type="file" id="file_input" name="file_input"><br><br>
+    
+        <label for="hidden_input">Campo Oculto:</label>
+        <input type="hidden" id="hidden_input" name="hidden_input" value="valor_oculto"><br><br>
+    
+        <label for="image_input">Botão de Imagem:</label>
+        <input type="image" id="image_input" src="caminho/para/a/imagem.jpg" alt="Botão de Imagem"><br><br>
+    
+        <label for="number_input">Número:</label>
+        <input type="number" id="number_input" name="number_input" min="0" max="100" step="5"><br><br>
+    
+        <label for="date_input">Data:</label>
+        <input type="date" id="date_input" name="date_input"><br><br>
+    
+        <label for="email_input">Email:</label>
+        <input type="email" id="email_input" name="email_input"><br><br>
+    
+        <label for="tel_input">Telefone:</label>
+        <input type="tel" id="tel_input" name="tel_input"><br><br>
+    
+        <label for="url_input">URL:</label>
+        <input type="url" id="url_input" name="url_input"><br><br>
+    </form>
+    
+</body>
+</html>
