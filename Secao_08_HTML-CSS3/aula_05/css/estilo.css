@@ -1,0 +1,138 @@
+@keyframes animacao-caixa{
+    from{
+        background: red;
+    }
+
+    to{
+        background: green;
+    }
+}
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: red;
+    animation-name: animacao-caixa;
+    animation-duration: 5s;
+}
+
+@keyframes animacao-caixa2{
+    from{
+        background: red;
+        border-radius: 0px;
+    }
+
+    to{
+        background: yellow;
+        border-radius: 300px;
+    }
+}
+
+#caixa2{
+    width: 300px;
+    height: 300px;
+    background: red;
+    animation-name: animacao-caixa2;
+    animation-duration: 5s;
+}
+
+@keyframes animacao-caixa3{
+    from{
+        background: red;
+        border-radius: 0px;
+    }
+
+    to{
+        background: blue;
+        border-radius: 80px;
+    }
+}
+
+#caixa3{
+    width: 300px;
+    height: 300px;
+    background: red;
+    animation-name: animacao-caixa3;
+    animation-duration: 5s;
+    animation-delay: 3s;
+}
+
+@keyframes animacao-caixa4{
+    from{
+        background: red;
+        border-radius: 0px;
+    }
+
+    to{
+        background: rgb(26, 255, 0);
+        border-radius: 80px;
+    }
+}
+
+#caixa4{
+    width: 300px;
+    height: 300px;
+    background: red;
+    animation-name: animacao-caixa4;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+}
+
+@keyframes animacao-caixa5{
+    from{
+        background: red;
+    }
+
+    to{
+        background: green;
+    }
+}
+
+#caixa5{
+    width: 300px;
+    height: 300px;
+    background: red;
+    animation-name: animacao-caixa5;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes animacao-caixa6{
+    from{
+        background: red;
+    }
+
+    to{
+        background: purple;
+    }
+}
+
+#caixa6{
+    width: 300px;
+    height: 300px;
+    background: red;
+    animation: animacao-caixa6 5s 3s 2 alternate;
+}
+
+@keyframes animacao-caixa7{
+    from{
+        background: red;
+        top: 0;
+        left: 0;
+    }
+
+    to{
+        background: purple;
+        top: 200px;
+        left: 200px;
+    }
+}
+
+#caixa7{
+    width: 300px;
+    height: 300px;
+    background: red;
+    position: relative;
+    animation: animacao-caixa7 5s 3s 2 alternate;
+}
