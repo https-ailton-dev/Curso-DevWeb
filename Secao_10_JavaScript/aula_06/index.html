@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavasScript - Revisão e desafio A-B-C</title>
+
+    <script>
+        var a = 10
+        var b = 20
+        var c = null // variável auxiliar utilizada na lógica
+
+        document.write('A: ' + a + '<br/>')
+        document.write('B: ' + b + '<br/>')
+        document.write('C: ' + c + '<br/>')
+
+        document.write('<hr/>')
+
+        //Lógica de inversão dos valores das variáveis A e B
+        c = a; // Armazena temporariamente o valor de a em c
+        a = b; // Atribui o valor de b para a
+        b = c; // Atribui o valor armazenado em c (que era o valor original de a) para b
+        c = null; // Limpa a variável auxiliar, se necessário
+
+        //
+        document.write('A: ' + a + '<br/>')
+        document.write('B: ' + b + '<br/>')
+        document.write('C: ' + c + '<br/>')
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
