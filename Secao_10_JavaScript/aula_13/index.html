@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Funções</title>
+
+    <script>
+        // Definição de uma função chamada 'saudacao'
+        function saudacao() {
+            document.write("Olá! Bem-vindo à minha função de saudação.")
+            document.write('<hr/>')
+        }
+        // Chamando a função 'saudacao'
+        saudacao()
+/*****************************************************************************************/        
+
+        // Definição de uma função chamada 'calcularArea'
+        function calcularArea(largura, comprimento) {
+            var resultado = largura * comprimento
+            return resultado
+        }
+        // Chamando a função calcularArea
+        document.write('A área possui ' + calcularArea( 5, 3) + 'm²')
+        document.write('<hr/>')
+/*****************************************************************************************/
+
+        // Definição de uma função chamada 'soma'
+        function calcularSoma(a, b) {
+            return a + b
+        }
+        // Chamando a função 'soma' e armazenando o resultado em uma variável
+        var resultado = calcularSoma(5, 3);
+        document.write("O resultado da soma é:", resultado)
+        document.write('<hr/>')
+/*****************************************************************************************/
+
+        // Definição de uma função chamada 'calcularAreaTerreno'
+        function calcularAreaTerreno(largura, comprimento) {
+            var area = largura * comprimento
+            return area
+        }
+
+        var largura = prompt('Digite a largura do terreno: ')
+        var comprimento = prompt('Digite o comprimento do terreno: ')
+
+        // Chamando a função 'calcularAreaTerreno'
+        var area = calcularAreaTerreno(largura, comprimento);
+        document.write("O resultado é: ", area)
+        document.write('<hr/>')
+/*****************************************************************************************/
+
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
