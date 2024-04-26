@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Escopo de variáveis</title>
+
+    <script>
+/*
+Em JavaScript, o escopo de uma variável refere-se à acessibilidade e visibilidade dessa variável em diferentes partes do código. 
+Existem dois tipos principais de escopo em JavaScript: escopo global e escopo local.
+
+1. **Escopo Global:**
+   - Variáveis declaradas fora de qualquer função têm escopo global.
+   - Elas podem ser acessadas de qualquer lugar do código, incluindo dentro de funções.
+   - Variáveis globais podem ser acessadas e modificadas de qualquer lugar, o que pode tornar o código mais difícil de entender e depurar.
+
+   Exemplo de variável global:
+*/
+   var globalVar = 10;
+
+   function minhaFuncao() {
+       console.log(globalVar); // Acesso à variável global dentro da função
+   }
+
+   minhaFuncao(); // Saída: 10
+
+/*
+2. **Escopo Local:**
+   - Variáveis declaradas dentro de uma função têm escopo local.
+   - Elas só podem ser acessadas dentro da função onde foram declaradas.
+   - Variáveis locais são criadas e destruídas sempre que a função é executada.
+
+   Exemplo de variável local:
+*/
+
+   function minhaFuncao() {
+       var localVar = 20; // Variável local
+       console.log(localVar); // Acesso à variável local dentro da função
+   }
+
+   minhaFuncao(); // Saída: 20
+   console.log(localVar); // Isso resultará em um erro, pois localVar não está definido neste escopo
+   
+/*
+É importante entender o escopo das variáveis para evitar bugs e garantir que suas variáveis sejam acessadas somente onde são necessárias. 
+Além disso, o uso excessivo de variáveis globais deve ser evitado, pois pode levar a problemas de manutenção e complexidade no código.
+*/
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
