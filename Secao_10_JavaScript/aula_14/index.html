@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Flexibilidade de parâmetros</title>
+
+    <script>
+
+        function soma(a, b){
+            //b = b === undefined ? 0 : b
+            return a + b
+        }
+        console.log(soma(7, 7))
+        console.log(soma(7, 7, 9, 15)) // desconsidera os parâmetros adicionais
+        console.log(soma(7)) // variavel a = 7 | variavel b = undefined | 7 + undefined = not a number
+        console.log(soma()) // variavel a = undefined  | variavel b = undefined | undefined + undefined = not a number
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
