@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Funções nativas para manipular datas</title>
+
+    <script>
+
+        //29 / 04 / 2024
+
+        var data = new Date()
+
+        //adicionar ou remover dias
+        document.write(data.toString())
+        data.setDate(data.getDate() - 1)
+        document.write('<br/>')
+        document.write(data.toString())
+        document.write('<hr/>')
+
+        //adicionar ou remover meses
+        document.write(data.toString())
+        data.setMonth(data.getMonth() - 2)
+        document.write('<br/>')
+        document.write(data.toString())
+        document.write('<hr/>')
+
+        //adicionar ou remover ano
+        document.write(data.toString())
+        data.setFullYear(data.getFullYear() - 2)
+        document.write('<br/>')
+        document.write(data.toString())
+        document.write('<hr/>')
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
